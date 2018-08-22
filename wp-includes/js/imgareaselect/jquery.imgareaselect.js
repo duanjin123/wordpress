@@ -1,4 +1,5 @@
- /* imgAreaSelect jQuery plugin
+/*
+ * imgAreaSelect jQuery plugin
  * version 0.9.10-monkey
  *
  * Copyright (c) 2008-2013 Michal Wojciechowski (odyniec.net)
@@ -747,7 +748,7 @@ $.imgAreaSelect = function (img, options) {
      */
     function imgMouseDown(event) {
         /* Ignore the event if animation is in progress */
-        if (event.which != 1 || $outer.is(':animated')) return false;
+        if (event.which > 1 || $outer.is(':animated')) return false;
 
         adjust();
         startX = x1 = evX(event);

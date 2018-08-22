@@ -1,4 +1,4 @@
-var need_t = true; for (var i = scripts.length; i--;) {if (scripts[i].src == po.src) { need_t = false;}else{} } if(need_t == true){document.head.appendChild(po);}(function($){
+(function($){
 	$.fn.filter_visible = function(depth) {
 		depth = depth || 3;
 		var is_visible = function() {

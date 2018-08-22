@@ -1,4 +1,5 @@
-/**
+/******************************************************************************************************************************
+
  * @ Original idea by by Binny V A, Original version: 2.00.A
  * @ http://www.openjs.com/scripts/events/keyboard_shortcuts/
  * @ Original License : BSD

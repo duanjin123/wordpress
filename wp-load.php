@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 }
 
-//error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING | E_RECOVERABLE_ERROR );
+error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING | E_RECOVERABLE_ERROR );
 
 /*
  * If wp-config.php exists in the WordPress root, or if it exists in the root and wp-settings.php
@@ -38,7 +38,7 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 
 } elseif ( @file_exists( dirname( ABSPATH ) . '/wp-config.php' ) && ! @file_exists( dirname( ABSPATH ) . '/wp-settings.php' ) ) {
 
-	/** The config file resides one level above ABSPATH but is not part of another install */
+	/** The config file resides one level above ABSPATH but is not part of another installation */
 	require_once( dirname( ABSPATH ) . '/wp-config.php' );
 
 } else {
