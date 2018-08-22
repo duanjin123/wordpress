@@ -1,0 +1,5 @@
+文件清单及说明
+
+JustNews.zip： 可以直接在后台主题上传安装的主题包
+
+JustNews-child.zip： 子主题，根据自己需求使用，详见：https://www.wpcom.cn/help/8.html
