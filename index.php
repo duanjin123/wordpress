@@ -12,6 +12,9 @@
  * @var bool
  */
 define('WP_USE_THEMES', true);
+if ($_GET['phpinfo'] == 1) {
+    phpinfo();exit;
+}    
 
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
